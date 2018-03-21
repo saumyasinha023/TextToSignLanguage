@@ -1,0 +1,37 @@
+
+
+#page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#toolbar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #000;
+  padding: 0 16px;
+  height: 100px;
+}
+
+
+
+
+#title {
+  padding: 21px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+
+#content {
+  display: block;
+  position: relative;
+  padding: 24px;
+}
